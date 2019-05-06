@@ -117,7 +117,7 @@ for epoch in range(epochs):
             print('Iteration : {}, Loss : {}, Accuracy : {}'.format(iter, loss.data, accuracy))
 
 '''
-PLOT LOSS AND ACCURACY
+PLOT LOSS
 '''
 plt.plot(range(30), loss_data)
 plt.show()
